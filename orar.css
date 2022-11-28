@@ -1,0 +1,243 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.orar__title {
+  font-size: 1.25rem;
+  color: inherit;
+  margin-top: 20px;
+  background: #f8f8f8;
+  padding: 20px 140px;
+  margin-bottom: 20px;
+}
+
+.container_btn_nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn_one {
+  background: white;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+
+.btn_two {
+  background-color: #25975a;
+  padding: 10px 40px;
+  font-size: 16px;
+  color: white;
+}
+
+.input_topnav {
+  padding: 5px 126px;
+}
+
+.sub_img {
+  padding: 5px 12px;
+  position: absolute;
+}
+
+.topnav {
+  margin-bottom: 20px;
+}
+
+.btn_sap {
+  padding: 5px;
+  padding-right: 245px;
+}
+
+.dau__nav {
+  padding: 5px;
+  padding-right: 332px;
+}
+
+.dau {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn_sem {
+  padding: 5px;
+  padding-right: 332px;
+}
+
+.year {
+  margin-top: 20px;
+}
+
+.grup {
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  border-bottom: 1px solid black;
+}
+
+.grup:hover {
+  background-color: #c7c753;
+}
+
+.nav_grup {
+  height: 120px;
+
+  border: 1px solid #ccc;
+  font: 16px/26px Georgia, Garamond, Serif;
+  overflow: auto;
+  background-color: white;
+}
+
+.laborator {
+  color: white;
+}
+
+.container_laborator {
+  display: flex;
+  column-gap: 15px;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.laboraor_two {
+  color: white;
+}
+
+.container_laborator_two {
+  display: flex;
+  column-gap: 15px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.header {
+  background-image: url(foto/new_background_1.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.time_day {
+  border: 1px rgb(17, 17, 17) solid;
+}
+
+.time_day_z {
+  background-color: #25975a;
+  border: 1px rgb(247, 247, 247) solid;
+}
+
+.day_week {
+  margin-top: 30px;
+
+  background-color: white;
+  text-align: center;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 100px repeat(7, 1fr);
+  grid-template-rows: repeat(8, 25px);
+}
+
+.btn_two:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.container_btn__orrar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn__desk_one {
+  background-color: #25975a;
+  color: white;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.btn__desk_thre {
+  background-color: #f0506e;
+  padding: 5px;
+}
+
+.btn__desk_two {
+  color: #999;
+  text-decoration: none;
+}
+
+.btn__desk_thre {
+  color: white;
+  text-decoration: none;
+}
+
+.team_luc_text {
+  color: #32d296;
+  background-color: #edfbf6;
+  padding: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container__logo_navvv {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.alecoo__russo__text {
+  margin-top: 30px;
+  color: white;
+  font-size: 25px;
+}
+
+.alec_orar {
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: repeat(7, 60px);
+}
+
+.aleco_orat_time {
+  border: 1px rgb(17, 17, 17) solid;
+}
+
+.aleco_orat_time_color {
+  background-color: #25975a;
+  border: 1px rgb(254, 254, 254) solid;
+}
+
+.time__nav {
+  margin-right: 50px;
+  flex-grow: 2;
+  margin-left: 50px;
+}
+
+.nav__header {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.aleco_orat_time,
+.aleco_orat_time_color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__alecoo__russo {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.aleco_orat_time_color:hover {
+  background-color: #c7c753;
+}
+
+.aleco_orat_time:hover {
+  background-color: #c7c753;
+}
